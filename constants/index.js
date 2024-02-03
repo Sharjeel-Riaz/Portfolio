@@ -117,7 +117,7 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
+    title: "Software Engineer (Freelance)",
     company_name: "Upwork",
     icon: upwork,
     iconBg: "#15A800",
@@ -130,7 +130,7 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
+    title: "Software Engineer (Remote)",
     company_name: "Next Algo",
     icon: nextalgo,
     iconBg: "#E6DEDD",
