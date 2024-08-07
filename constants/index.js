@@ -9,16 +9,14 @@ import {
   nextjs,
   tailwind,
   nodejs,
-  expressjs,
-  mongodb,
-  interns,
-  upwork,
+  devsinc,
+  jeryz,
   nextalgo,
-  weathersnap,
-  linearvision,
+  circuitbazaar,
+  framecast,
+  verdant,
   palmflow,
   mintify,
-  hairday,
   threejs,
   mitch,
   kevin,
@@ -46,19 +44,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Creative Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Innovative React Native Engineer",
     icon: mobile,
   },
   {
-    title: "Back-end Developer",
+    title: "Back-End Architecture Specialist",
     icon: backend,
   },
   {
-    title: "Tutor & Content Creator",
+    title: "Video Editing Expert",
     icon: creator,
   },
 ];
@@ -89,14 +87,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "Express JS",
-    icon: expressjs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
@@ -105,9 +95,9 @@ const technologies = [
 const experiences = [
   {
     title: "Front-end Developer",
-    company_name: "Interns Pakistan",
-    icon: interns,
-    iconBg: "#E6DEDD",
+    company_name: "Devsinc",
+    icon: devsinc,
+    iconBg: "#FFFFFF",
     date: "Aug 2022 - Dec 2022",
     points: [
       "Developed and maintained web applications using React.js and other related technologies.",
@@ -117,29 +107,29 @@ const experiences = [
     ],
   },
   {
-    title: "Software Engineer (Freelance)",
-    company_name: "Upwork",
-    icon: upwork,
-    iconBg: "#15A800",
-    date: "Aug 2022 - Present",
-    points: [
-      "Delivering projects on Full-Stack Development, utilizing my expertise in the MERN stack, ReactJS/Native, Azure, AI/ML, and Metaverse.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Providing personal tutoring in various technologies such as API's, AI & VR/AR development.",
-      "Maintaining effective communication with clients to ensure their satisfaction and delivering solutions that meet their needs.",
-    ],
-  },
-  {
     title: "Software Engineer (Remote)",
     company_name: "Next Algo",
     icon: nextalgo,
     iconBg: "#E6DEDD",
-    date: "Apr 2023 - Present",
+    date: "Apr 2023 - June 2024",
     points: [
-      "Developing mobile applications using React Native, leveraging the power of JavaScript to create cross-platform experiences.",
-      "Integrating with back-end services and APIs to fetch and display data in mobile applications.",
-      "Troubleshooting and debugging issues to ensure smooth performance and user experience across different devices and platforms.",
-      "Communicating effectively with clients and stakeholders to understand their requirements, provide updates, and ensure client satisfaction.",
+      "Developed mobile applications using React Native, leveraging the power of JavaScript to create cross-platform experiences.",
+      "Integrated with back-end services and APIs to fetch and display data in mobile applications.",
+      "Troubleshooted and debugging issues to ensure smooth performance and user experience across different devices and platforms.",
+      "Communicated effectively with clients and stakeholders to understand their requirements, provide updates, and ensure client satisfaction.",
+    ],
+  },
+  {
+    title: "Founder",
+    company_name: "Jeryz",
+    icon: jeryz,
+    iconBg: "#171616",
+    date: "May 2024 - Present",
+    points: [
+      "Delivering innovative projects in Full-Stack Development, specializing in SaaS solutions with the MERN stack, ReactJS/Native, Azure, AI/ML, and Metaverse technologies.",
+      "Leading cross-functional teams, including designers, product managers, and developers, to create high-quality, user-centric SaaS products.",
+      "Creating and editing engaging video content, utilizing cutting-edge technologies such as AI and VR/AR development to enhance user experience.",
+      "Ensuring exceptional client satisfaction by maintaining effective communication and delivering solutions that surpass expectations.",
     ],
   },
 ];
@@ -217,16 +207,16 @@ const projects = [
     project_link: "https://github.com/Sharjeel-Riaz/PaLMFlow",
   },
   {
-    name: "Weather Snap",
+    name: "Framecast AI",
     description:
-      "Web-based weather app that everages the power of OpenWeatherMap and RapidAPI to provide accurate and up-to-date weather information for any location around the world.",
+      "Introducing Framecast AI, an intuitive SaaS platform powered by Astria that generates Professional AI Headshots in minutes.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "vite",
+        name: "nextjs",
         color: "green-text-gradient",
       },
       {
@@ -234,14 +224,16 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: weathersnap,
-    source_code_link: "https://github.com/Sharjeel-Riaz/Weather-Snap",
-    project_link: "https://weather-snap.vercel.app/",
+    image: framecast,
+    source_code_link:
+      "https://codecanyon.net/item/framecastai-ai-headshot-generator-avatar-maker-image-generator-saas-system/52931474",
+    project_link:
+      "https://codecanyon.net/item/framecastai-ai-headshot-generator-avatar-maker-image-generator-saas-system/52931474",
   },
   {
-    name: "Linear Vision",
+    name: "Circuit Bazaar",
     description:
-      "Web application that enables users with the power of DALL-E 2's API integration & an image editor resulting in a sleek and minimalist user interface to edit your images creatively.",
+      "An e-commerce store powered by Sanity CMS and integrated with Stripe for a seamless shopping experience.",
     tags: [
       {
         name: "react",
@@ -256,31 +248,31 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: linearvision,
-    source_code_link: "https://github.com/Sharjeel-Riaz/Linear-Vision",
-    project_link: "https://sharjeel-riaz.github.io/Linear-Vision/",
+    image: circuitbazaar,
+    source_code_link: "https://github.com/Sharjeel-Riaz/CircuitBazaar",
+    project_link: "https://circuit-bazaar.vercel.app/",
   },
   {
-    name: "Hair Day",
+    name: "Verdant",
     description:
-      "An all-inclusive salon experience platform that empowers users to book a wide range of haircare and beauty services, and provides personalized recommendations for their unique needs.",
+      "Introducing Verdant, an intuitive SaaS platform powered by Gemini/GPT that provides AI-powered content creation at your fingertips.",
     tags: [
       {
-        name: "html",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "nextjs",
         color: "green-text-gradient",
       },
       {
-        name: "javascript",
+        name: "saas",
         color: "pink-text-gradient",
       },
     ],
-    image: hairday,
-    source_code_link: "https://github.com/Sharjeel-Riaz/Hair-Day-Website",
-    project_link: "https://sharjeel-riaz.github.io/Hair-Day-Website/",
+    image: verdant,
+    source_code_link: "",
+    project_link: "",
   },
 ];
 

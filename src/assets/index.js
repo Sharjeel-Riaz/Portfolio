@@ -20,13 +20,14 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import interns from "./company/interns.png";
-import upwork from "./company/upwork.png";
+import devsinc from "./company/devsinc.png";
+import jeryz from "./company/jeryz.png";
 import nextalgo from "./company/nextalgo.png";
 
-import weathersnap from "./weathersnap.png";
-import linearvision from "./linearvision.png";
-import hairday from "./hairday.png";
+
+import circuitbazaar from "./circuitbazaar.png";
+import framecast from "./framecast.png";
+import verdant from "./verdant.png";
 import palmflow from "./palmflow.png";
 import mintify from "./mintify.png";
 
@@ -56,14 +57,14 @@ export {
   tailwind,
   typescript,
   threejs,
-  interns,
-  upwork,
+  devsinc,
+  jeryz,
   nextalgo,
-  weathersnap,
-  linearvision,
+  circuitbazaar,
+  framecast,
+  verdant,
   palmflow,
   mintify,
-  hairday,
   resume,
   mitch,
   kevin,

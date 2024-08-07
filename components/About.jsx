@@ -59,17 +59,16 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-5 mb-12 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I'm a skilled Software Developer specializing in JavaScript and
-          technologies like React, Node.js, and Three.js. With experience in
-          creating modern web applications, I deliver efficient and
-          user-friendly solutions for real-world problems. As a Developer, I've
-          worked on diverse projects and collaborated with clients globally.
-          With a passion for exploring the possibilities of the metaverse and
-          web 2.0/3.0 technologies, I strive to push the boundaries of what's
-          possible on the web. Whether you're a startup seeking a cutting-edge
-          web application or a business looking to enhance your online presence,
-          I provide tailored solutions to meet your specific needs. Let's
-          collaborate and bring your ideas to life!
+          I am a proficient Software Developer with a strong focus on JavaScript
+          and technologies like React, Next.js, and Three.js. I specialize in
+          crafting modern web applications that are both efficient and
+          user-friendly, addressing real-world challenges with innovative
+          solutions. My experience spans diverse projects and global
+          collaborations, allowing me to deliver top-notch results. Whether
+          you're a startup in need of a cutting-edge web application or a
+          business aiming to elevate your online presence, I offer customized
+          solutions tailored to your unique requirements. Let's join forces and
+          bring your vision to life!
         </motion.p>
 
         <div
